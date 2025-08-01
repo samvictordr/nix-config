@@ -19,13 +19,13 @@
         history.size = 100000;
         history.path = "\${XDG_DATA_HOME}/zsh/history";
         dotDir = "${config.xdg.configHome}/zsh";
-        # plugins = [
-        #   {
-        #     name = "powerlevel10k";
-        #     file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
-        #     src = pkgs.zsh-powerlevel10k;
-        #   }
-        # ];
+        plugins = [
+          {
+            name = "powerlevel10k";
+            file = "share/zsh-powerlevel10k/powerlevel10k.zsh-theme";
+            src = pkgs.zsh-powerlevel10k;
+          }
+        ];
         oh-my-zsh = {
           enable = true;
           plugins = [
