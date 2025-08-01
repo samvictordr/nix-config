@@ -48,7 +48,7 @@
     settings = {
       # User configuration
       username = "sam"; # automatically set with install.sh and live-install.sh
-      editor = "neovim"; # nixvim, vscode, nvchad, neovim, emacs (WIP)
+      editor = "vscode"; # nixvim, vscode, nvchad, neovim, emacs (WIP)
       browser = "zen"; # firefox, floorp, zen
       terminal = "kitty"; # kitty, alacritty, wezterm
       terminalFileManager = "yazi"; # yazi or lf

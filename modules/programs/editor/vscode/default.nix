@@ -15,25 +15,25 @@
           extensions = with pkgs.vscode-extensions; [
             bbenoist.nix
             # arrterian.nix-env-selector
-            eamodio.gitlens
+            # eamodio.gitlens
             github.vscode-github-actions
             yzhang.markdown-all-in-one
-            catppuccin.catppuccin-vsc
-            catppuccin.catppuccin-vsc-icons
+            # catppuccin.catppuccin-vsc
+            # catppuccin.catppuccin-vsc-icons
             # asvetliakov.vscode-neovim
             # vscodevim.vim
             tamasfe.even-better-toml
-            #jnoortheen.nix-ide
-            # redhat.vscode-yaml
+            # jnoortheen.nix-ide
+            redhat.vscode-yaml
             # vadimcn.vscode-lldb
             rust-lang.rust-analyzer
-            ms-vscode.cpptools
-            ms-vscode.cmake-tools
-            ms-vscode.makefile-tools
-            ziglang.vscode-zig
+            # ms-vscode.cpptools
+            # ms-vscode.cmake-tools
+            # ms-vscode.makefile-tools
+            # ziglang.vscode-zig
             # ms-dotnettools.csharp
             ms-python.python
-            # pkief.material-icon-theme
+            pkief.material-icon-theme
             # equinusocio.vsc-material-theme
             # dracula-theme.theme-dracula
           ];  
