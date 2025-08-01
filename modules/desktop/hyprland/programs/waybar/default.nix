@@ -121,7 +121,7 @@
               active-only = false;
               on-click = "activate";
               persistent-workspaces = {
-                "*" = [1 2 3 4 5 6 7 8 9 10];
+                "*" = [1 2 3 4 5];
               };
             };
 
@@ -343,21 +343,18 @@
           /* This section can be use if you want to separate waybar modules */
           .modules-left {
           	background: @theme_base_color;
-           	border: 1px solid @blue;
           	padding-right: 15px;
           	padding-left: 2px;
           	border-radius: 10px;
           }
           .modules-center {
           	background: @theme_base_color;
-            border: 0.5px solid @overlay0;
           	padding-right: 5px;
           	padding-left: 5px;
           	border-radius: 10px;
           }
           .modules-right {
           	background: @theme_base_color;
-           	border: 1px solid @blue;
           	padding-right: 15px;
           	padding-left: 15px;
           	border-radius: 10px;
