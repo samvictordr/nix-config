@@ -67,6 +67,9 @@
   ];
 
   services.fprintd.enable = true;
+  services.tlp.enable = true;
+  powerManagement.cpuFreqGovernor = "powersave";
+  hardware.nvidia.powerManagement.enable = true;
 
   # Enable fingerprint authentication for SDDM
   security.pam.services.sddm.fprintAuth = true;
