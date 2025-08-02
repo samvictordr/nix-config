@@ -507,7 +507,7 @@
           }
 
           # Easily plug in any monitor
-          monitor=,preferred,auto,1.25
+          monitor=,preferred,auto,1
 
           # 1080p-HDR monitor on the left, 4K-HDR monitor in the middle and 1080p vertical monitor on the right.
           monitor=desc:BNQ BenQ EW277HDR 99J01861SL0,preferred,-1920x0,1

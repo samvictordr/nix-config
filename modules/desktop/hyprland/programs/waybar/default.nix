@@ -13,7 +13,7 @@
             layer = "top";
             position = "top";
             mode = "dock"; # Fixes fullscreen issues
-            height = 32; # 35
+            height = 42; # 35
             exclusive = true;
             passthrough = false;
             gtk-layer-shell = true;
@@ -250,7 +250,7 @@
             };
 
             "tray" = {
-              icon-size = 12;
+              icon-size = 18;
               spacing = 5;
             };
 
@@ -279,7 +279,7 @@
         style = ''
           * {
             font-family: "JetBrainsMono Nerd Font";
-            font-size: 14px;
+            font-size: 16px;
             font-feature-settings: '"zero", "ss01", "ss02", "ss03", "ss04", "ss05", "cv31"';
             margin: 0px;
             padding: 0px;

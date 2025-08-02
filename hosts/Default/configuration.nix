@@ -65,10 +65,13 @@
         foliate
 	mupdf
   ];
+ 
+  nixpkgs.config.allowUnfree = true;
+  hardware.graphics.enable32Bit = true;
 
   services.fprintd.enable = true;
-  services.tlp.enable = true;
-  powerManagement.cpuFreqGovernor = "powersave";
+  services.tlp.enable = true; # Enable TLP for power management
+  powerManagement.cpuFreqGovernor = "powersave"; #overrides tlp config in modules/programs/misc/tlp i think?
   hardware.nvidia.powerManagement.enable = true;
 
   # Enable fingerprint authentication for SDDM
