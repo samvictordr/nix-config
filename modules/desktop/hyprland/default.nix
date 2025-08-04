@@ -384,7 +384,7 @@
               "$mainMod, E, exec, $fileManager"
               "$mainMod, C, exec, $editor"
               "$mainMod, F, exec, firefox"
-              "$mainMod SHIFT, S, exec, spotify"
+              "$mainMod SHIFT, S, exec, env -u WAYLAND_DISPLAY spotify"
               "$mainMod SHIFT, Y, exec, youtube-music"
               "$CONTROL ALT, DELETE, exec, $term -e '${getExe pkgs.btop}'" # System Monitor
               "$mainMod CTRL, C, exec, hyprpicker --autocopy --format=hex" # Colour Picker

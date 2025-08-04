@@ -19,6 +19,7 @@ in {
     WLR_DRM_DEVICES = "/dev/dri/card1"; # NEW
   };
 
+  services.thermald.enable = true;
   # Load nvidia driver for Xorg and Wayland
   services.xserver.videoDrivers = ["nvidia"];
   boot.kernelParams = lib.optionals (lib.elem "nvidia" config.services.xserver.videoDrivers) [
