@@ -121,7 +121,7 @@
               active-only = false;
               on-click = "activate";
               persistent-workspaces = {
-                "*" = [1 2 3 4 5];
+                "*" = [1 2 3 4 5 6 7 8 9 10];
               };
             };
 
@@ -420,7 +420,7 @@
           }
 
           #battery {
-            color: @green;
+            color: @blue;
           }
 
           @keyframes blink {
@@ -455,7 +455,7 @@
           }
 
           #clock {
-            color: @yellow;
+            color: @blue;
           }
 
           #custom-icon {
@@ -464,16 +464,16 @@
           }
 
           #custom-gpuinfo {
-            color: @maroon;
+            color: @blue;
           }
 
           #cpu {
-            color: @yellow;
+            color: @blue;
           }
 
           #custom-keyboard,
           #memory {
-            color: @green;
+            color: @blue;
           }
 
           #disk {
@@ -526,7 +526,7 @@
           }
 
           #workspaces button.active {
-          	color: @peach;
+          	color: @blue;
             	border-radius: 10px;
               padding-left: 8px;
               padding-right: 8px;
@@ -554,19 +554,19 @@
           }
 
           #custom-cava_mviz {
-          	color: @pink;
+          	color: @blue;
           }
 
           #cava {
-          	color: @pink;
+          	color: @blue;
           }
 
           #mpris {
-          	color: @pink;
+          	color: @blue;
           }
 
           #custom-menu {
-            color: @rosewater;
+            color: @blue;
           }
 
           #custom-power {
@@ -590,11 +590,11 @@
           }
 
           #pulseaudio {
-            color: @lavender;
+            color: @blue;
           }
 
           #pulseaudio.bluetooth {
-            color: @pink;
+            color: @blue;
           }
           #pulseaudio.muted {
             color: @red;
