@@ -40,6 +40,7 @@
     ../../modules/programs/media/mpv
     ../../modules/programs/misc/tlp
     ../../modules/programs/misc/thunar
+    ../../modules/programs/misc/docker
     ../../modules/programs/misc/lact # GPU fan, clock and power configuration
     # ../../modules/programs/misc/nix-ld
     # ../../modules/programs/misc/virt-manager
@@ -54,6 +55,9 @@
         github-desktop
         # gimp
         obsidian
+	mupdf
+        foliate
+	zathura
       ];
     })
   ];
@@ -61,9 +65,7 @@
   # Define system packages here
   environment.systemPackages = with pkgs; [
 	fprintd
-	zathura
-        foliate
-	mupdf
+	terraform
   ];
  
   nixpkgs.config.allowUnfree = true;
