@@ -1,10 +1,9 @@
 { config, pkgs, ... }:
 
 {
-  services.docker = {
+  virtualisation.docker = {
     enable = true;
-    rootless = false;
-    # storageDriver = "overlay2"; # might help if using custom partitions
+    enableOnBoot = true;
   };
 
   environment.systemPackages = with pkgs; [
